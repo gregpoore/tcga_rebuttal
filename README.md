@@ -13,7 +13,7 @@ The figure summarizing the findings and its associated caption is below. All ana
 
 ![Alt text](Figures/assembled-figure.jpg?raw=true "Title")
 
-**Re-analysis of the data provided by Gihawi et al. 2023 bioRxiv reveal cancer type-specific microbiomes.**  
+**Re-analysis of the raw data provided by Gihawi et al. 2023 bioRxiv reveal cancer type-specific microbiomes.**  
 **(A)** The breakdown of samples derived from TCGA’s Harvard Medical School (HMS), which contributed the most samples of any sequencing center among their samples (284 of 728, 39.0%). To avoid the need for batch correction, samples were analyzed using raw data from Gihawi et al. 2023 in subsets from a single sequencing center (here, HMS), sequencing platform (Illumina HiSeq), and experimental strategy (WGS). The data were not transformed in any way other than removing the Homo genus counts since it was included in their KrakenUniq mappings.  
 **(B)** Aitchison-based Principal Coordinates Analysis (RPCA) on the raw data, excluding Homo counts, across all primary tumors (PTs) from HMS. RPCA does not require rarefaction and none was used. PERMANOVA with 999 iterations was run to estimate effect sizes of cancer type separation, which was significant (inset values, p=0.001). Colors reflect cancer types and are uniform across all subpanels of this figure.  
 **(C)** After RPCA, Shannon entropies were calculated on all PT samples from HMS using raw data (excluding Homo counts) rarefied to the first quartile of sample counts (600 reads/sample). A Kruskal-Wallis test showed significant differences in Shannon diversity among cancer types (p=1.4e-9).  
