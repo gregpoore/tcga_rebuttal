@@ -1,0 +1,84 @@
+sampleid	investigation	disease_type	experimental_strategy	data_submitting_center_label
+s2691	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2698	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2699	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2715	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2716	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2719	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2720	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2721	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2726	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2731	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2733	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2736	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2737	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2738	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2858	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2874	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2882	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2887	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2890	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2894	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2895	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2899	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2901	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2907	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2909	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2911	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2914	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2917	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2922	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2923	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2924	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2931	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s2937	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3089	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3092	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3095	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3098	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3108	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3109	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3112	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3114	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3116	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3125	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3129	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3131	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3273	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3274	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3278	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3282	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3285	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3286	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3291	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3292	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3295	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3296	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3298	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3299	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3302	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3306	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3307	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3308	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s3309	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s15506	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s15520	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s15523	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s15526	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s15528	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s15637	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s15652	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s15776	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s15783	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s15784	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s15900	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s15902	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s15904	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s15908	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s15909	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s16040	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s16052	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s16056	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s16209	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s16333	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science
+s16342	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	MD Anderson - Institute for Applied Cancer Science

@@ -1,0 +1,48 @@
+sampleid	investigation	disease_type	experimental_strategy	data_submitting_center_label
+s2674	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	Broad Institute of MIT and Harvard
+s2677	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	Broad Institute of MIT and Harvard
+s2678	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	Broad Institute of MIT and Harvard
+s2687	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	Broad Institute of MIT and Harvard
+s2688	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	Broad Institute of MIT and Harvard
+s2847	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	Broad Institute of MIT and Harvard
+s2849	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	Broad Institute of MIT and Harvard
+s2850	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	Broad Institute of MIT and Harvard
+s3066	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	Broad Institute of MIT and Harvard
+s3067	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	Broad Institute of MIT and Harvard
+s3070	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	Broad Institute of MIT and Harvard
+s3247	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	Broad Institute of MIT and Harvard
+s3250	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	Broad Institute of MIT and Harvard
+s3254	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	Broad Institute of MIT and Harvard
+s3255	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	Broad Institute of MIT and Harvard
+s3394	TCGA-BLCA	Bladder Urothelial Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15484	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15486	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15602	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15603	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15604	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15605	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15606	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15607	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15742	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15744	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15745	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15747	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15748	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15862	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15866	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15869	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15870	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15871	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15872	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15873	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15874	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s15875	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s16017	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s16019	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s16022	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s16023	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s16163	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s16166	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s16167	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s16312	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard
+s16313	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Broad Institute of MIT and Harvard

@@ -1,0 +1,96 @@
+sampleid	investigation	disease_type	experimental_strategy	data_submitting_center_label
+s15487	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15491	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15494	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15502	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15505	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15518	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15519	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15530	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15533	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15608	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15611	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15612	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15613	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15618	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15619	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15621	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15622	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15624	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15625	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15626	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15628	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15630	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15653	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15654	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15656	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15750	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15756	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15757	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15761	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15764	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15765	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15770	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15771	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15773	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15777	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15786	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15878	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15879	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15886	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15887	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15889	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15890	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15899	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15901	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15906	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15913	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s15915	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16027	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16029	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16031	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16034	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16047	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16170	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16172	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16174	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16175	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16182	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16183	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16185	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16189	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16190	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16195	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16200	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16202	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16208	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16315	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16317	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16321	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16322	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16324	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16326	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16327	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16329	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16330	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16340	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s16344	TCGA-HNSC	Head and Neck Squamous Cell Carcinoma	WGS	Harvard Medical School
+s5492	TCGA-BRCA	Breast Invasive Carcinoma	WGS	Harvard Medical School
+s5641	TCGA-BRCA	Breast Invasive Carcinoma	WGS	Harvard Medical School
+s5797	TCGA-BRCA	Breast Invasive Carcinoma	WGS	Harvard Medical School
+s5959	TCGA-BRCA	Breast Invasive Carcinoma	WGS	Harvard Medical School
+s5962	TCGA-BRCA	Breast Invasive Carcinoma	WGS	Harvard Medical School
+s6122	TCGA-BRCA	Breast Invasive Carcinoma	WGS	Harvard Medical School
+s6123	TCGA-BRCA	Breast Invasive Carcinoma	WGS	Harvard Medical School
+s6124	TCGA-BRCA	Breast Invasive Carcinoma	WGS	Harvard Medical School
+s6125	TCGA-BRCA	Breast Invasive Carcinoma	WGS	Harvard Medical School
+s6272	TCGA-BRCA	Breast Invasive Carcinoma	WGS	Harvard Medical School
+s6461	TCGA-BRCA	Breast Invasive Carcinoma	WGS	Harvard Medical School
+s6463	TCGA-BRCA	Breast Invasive Carcinoma	WGS	Harvard Medical School
+s6465	TCGA-BRCA	Breast Invasive Carcinoma	WGS	Harvard Medical School
+s6466	TCGA-BRCA	Breast Invasive Carcinoma	WGS	Harvard Medical School
+s6629	TCGA-BRCA	Breast Invasive Carcinoma	WGS	Harvard Medical School
+s6768	TCGA-BRCA	Breast Invasive Carcinoma	WGS	Harvard Medical School
+s6773	TCGA-BRCA	Breast Invasive Carcinoma	WGS	Harvard Medical School
+s6917	TCGA-BRCA	Breast Invasive Carcinoma	WGS	Harvard Medical School
+s6918	TCGA-BRCA	Breast Invasive Carcinoma	WGS	Harvard Medical School

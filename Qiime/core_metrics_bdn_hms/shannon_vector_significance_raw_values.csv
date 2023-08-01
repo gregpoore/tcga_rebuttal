@@ -1,0 +1,73 @@
+﻿id,investigation,disease_type,shannon_entropy
+#q2:types,categorical,categorical,numeric
+s15487,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,2.092235872
+s15494,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,2.816990703
+s15502,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,2.977959286
+s15505,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,3.821452885
+s15518,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,1.575960231
+s15519,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,3.730529326
+s15530,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,3.111059741
+s15533,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,3.792314821
+s15612,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.216914056
+s15613,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,1.527032446
+s15618,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.13405996
+s15621,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,2.327748536
+s15622,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,2.822464143
+s15624,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,4.099553032
+s15625,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,2.936752855
+s15630,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,1.761491123
+s15653,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,3.280155898
+s15654,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,3.157604217
+s15656,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,3.917470828
+s15750,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,1.614688369
+s15756,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,2.662153989
+s15761,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,2.322429776
+s15777,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,1.814876043
+s15879,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,0.270957249
+s15887,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,3.114479768
+s15889,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,4.593097964
+s15890,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,2.839133498
+s15899,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,3.631222227
+s15901,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,4.11223742
+s15906,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,3.400541633
+s15913,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,3.697543089
+s15915,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,2.647522345
+s16027,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,1.89723096
+s16029,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,2.758076648
+s16031,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,3.251395663
+s16034,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,3.383612094
+s16047,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,4.028252691
+s16170,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,1.483156488
+s16172,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,2.173935485
+s16174,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,2.597156151
+s16175,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,2.549364967
+s16183,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,2.741226466
+s16189,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,1.780958538
+s16190,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,2.495658194
+s16195,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,3.352046027
+s16200,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,2.337892285
+s16202,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,3.757628024
+s16208,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,3.222393714
+s16315,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,1.953117821
+s16324,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,3.779623805
+s16326,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,1.908660218
+s16340,TCGA-HNSC,Head and Neck Squamous Cell Carcinoma,4.051812922
+s5492,TCGA-BRCA,Breast Invasive Carcinoma,1.460545819
+s5641,TCGA-BRCA,Breast Invasive Carcinoma,1.173587323
+s5797,TCGA-BRCA,Breast Invasive Carcinoma,1.311466245
+s5959,TCGA-BRCA,Breast Invasive Carcinoma,1.289935593
+s5962,TCGA-BRCA,Breast Invasive Carcinoma,2.01475147
+s6122,TCGA-BRCA,Breast Invasive Carcinoma,0.942405469
+s6123,TCGA-BRCA,Breast Invasive Carcinoma,1.835826926
+s6124,TCGA-BRCA,Breast Invasive Carcinoma,1.34834092
+s6125,TCGA-BRCA,Breast Invasive Carcinoma,1.738894057
+s6272,TCGA-BRCA,Breast Invasive Carcinoma,2.226811142
+s6461,TCGA-BRCA,Breast Invasive Carcinoma,1.075802268
+s6463,TCGA-BRCA,Breast Invasive Carcinoma,1.761989939
+s6465,TCGA-BRCA,Breast Invasive Carcinoma,0.970898212
+s6466,TCGA-BRCA,Breast Invasive Carcinoma,1.362667104
+s6629,TCGA-BRCA,Breast Invasive Carcinoma,0.990226691
+s6768,TCGA-BRCA,Breast Invasive Carcinoma,0.966883607
+s6773,TCGA-BRCA,Breast Invasive Carcinoma,1.472878866
+s6917,TCGA-BRCA,Breast Invasive Carcinoma,1.462509333
+s6918,TCGA-BRCA,Breast Invasive Carcinoma,1.871322625
