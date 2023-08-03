@@ -84,7 +84,7 @@ countMergedWIS[is.na(countMergedWIS)] <- 0
 rownames(countMergedWIS) <- c(rownames(blcaKrakenWIS),
                            rownames(hnscKrakenWIS),
                            rownames(brcaKrakenWIS))
-dim(countMergedWIS) # 728 149 | 728 161
+dim(countMergedWIS) # 728 149
 
 # Subset metadata to samples reflected by Gihawi et al. 2023
 metadataSamplesMergedWIS <- metadataSamplesAll[rownames(countMergedWIS),]
