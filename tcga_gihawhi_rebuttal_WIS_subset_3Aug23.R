@@ -1,8 +1,9 @@
-# tcga_gihawi_rebuttal_31July23.R
+# tcga_gihawi_rebuttal_WIS_subset_31July23.R
 # Author: Greg Poore
-# Date: July 31, 2023
+# Date: Aug 3, 2023
 # Purpose: To explore cancer type differences in data released by 
 # Gihawi et al. 2023 bioRxiv: https://www.biorxiv.org/content/10.1101/2023.07.28.550993v1
+# only using bacterial and fungal genera found in tumors by the Weizmann Institute of Science (WIS)
 
 # Load dependencies
 require(ggplot2) # 3.4.2
@@ -69,14 +70,15 @@ brcaKrakenWIS <- brcaKraken[,colnames(brcaKraken) %in% wisGeneraKnownUnique]
 # - Selected conservative method to retain only overlapping features
 # (although that reduce some effect size since the files are
 # separated by cancer type)
-# - Since the tables are already intersected with the WIS features, they 
-# are simply joined here. Any missing values after joining the tables are filled 
-# in with 0s.
 # - Note that WIS did not contain "Homo" genus calls, so they are inherently excluded
 #------------------------------------------------------#
-countMergedWIS <- smartbind(blcaKrakenWIS,
-                            hnscKrakenWIS,
-                            brcaKrakenWIS)
+sharedFeat <- Reduce(intersect, list(colnames(blcaKrakenWIS),
+                                     colnames(hnscKrakenWIS),
+                                     colnames(brcaKrakenWIS)))
+
+countMergedWIS <- smartbind(blcaKrakenWIS[,sharedFeat],
+                            hnscKrakenWIS[,sharedFeat],
+                            brcaKrakenWIS[,sharedFeat])
 # Missing values after the merge should be converted to 0s
 countMergedWIS[is.na(countMergedWIS)] <- 0 
 rownames(countMergedWIS) <- c(rownames(blcaKrakenWIS),
@@ -186,122 +188,6 @@ metadataSamplesMergedWIS %>% count(platform, data_submitting_center_label)
 # 7 Illumina MiSeq           Washington University School of Medicine   1
 
 #----------------------------------------------------------#
-# Save data for Qiime PT data
-#----------------------------------------------------------#
-
-## Create mock taxa file for Qiime containing all genera
-taxaFile <- data.frame(`Feature ID` = colnames(countMergedWIS),
-                       Taxon = colnames(countMergedWIS),
-                       check.names = FALSE)
-write.table(taxaFile,
-            file = "./Qiime_WIS/Qiime_input_data/taxa.txt",
-            quote = FALSE, sep = "\t", row.names = FALSE,col.names = TRUE)
-
-## Save metadata subsets by seqcenter
-write.table(metadataSamplesMergedWIS_PT_HMS,
-            file = "./Qiime_WIS/Qiime_input_data/metadataSamplesMergedWIS_PT_HMS.txt",
-            quote = FALSE, sep = "\t", row.names = FALSE,col.names = TRUE)
-write.table(metadataSamplesMergedWIS_PT_Broad,
-            file = "./Qiime_WIS/Qiime_input_data/metadataSamplesMergedWIS_PT_Broad.txt",
-            quote = FALSE, sep = "\t", row.names = FALSE,col.names = TRUE)
-write.table(metadataSamplesMergedWIS_PT_MDA,
-            file = "./Qiime_WIS/Qiime_input_data/metadataSamplesMergedWIS_PT_MDA.txt",
-            quote = FALSE, sep = "\t", row.names = FALSE,col.names = TRUE)
-write.table(metadataSamplesMergedWIS_BDN_HMS,
-            file = "./Qiime_WIS/Qiime_input_data/metadataSamplesMergedWIS_BDN_HMS.txt",
-            quote = FALSE, sep = "\t", row.names = FALSE,col.names = TRUE)
-
-## Save raw count data subsets by seqcenter
-# HMS PT
-countMergedWIS_PT_HMS_BIOM <- make_biom(t(countMergedWIS_PT_HMS))
-write_biom(countMergedWIS_PT_HMS_BIOM, 
-           biom_file = "./Qiime_WIS/Qiime_input_data/countMergedWIS_PT_HMS.biom")
-# Check distribution of sample read counts (use 1st quartile for alpha div)
-summary(rowSums(countMergedWIS_PT_HMS))
-# Min.   1st Qu.    Median      Mean   3rd Qu.      Max. 
-# 0.0     359.5     802.0   50367.0   17343.5 1858680.0
-
-# Broad PT
-countMergedWIS_PT_Broad_BIOM <- make_biom(t(countMergedWIS_PT_Broad))
-write_biom(countMergedWIS_PT_Broad_BIOM, 
-           biom_file = "./Qiime_WIS/Qiime_input_data/countMergedWIS_PT_Broad.biom")
-# Check distribution of sample read counts (use 1st quartile for alpha div)
-summary(rowSums(countMergedWIS_PT_Broad))
-# Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-# 44.0   191.5   417.0  2942.3  1491.5 78342.0
-
-# MDA PT
-countMergedWIS_PT_MDA_BIOM <- make_biom(t(countMergedWIS_PT_MDA))
-write_biom(countMergedWIS_PT_MDA_BIOM, 
-           biom_file = "./Qiime_WIS/Qiime_input_data/countMergedWIS_PT_MDA.biom")
-# Check distribution of sample read counts (use 1st quartile for alpha div)
-summary(rowSums(countMergedWIS_PT_MDA))
-# Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
-# 136.0    270.5    374.0  26416.7   1561.0 740872.0 
-
-# HMS BDN
-countMergedWIS_BDN_HMS_BIOM <- make_biom(t(countMergedWIS_BDN_HMS))
-write_biom(countMergedWIS_BDN_HMS_BIOM, 
-           biom_file = "./Qiime_WIS/Qiime_input_data/countMergedWIS_BDN_HMS.biom")
-# Check distribution of sample read counts (use 1st quartile for alpha div)
-summary(rowSums(countMergedWIS_BDN_HMS))
-# Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-# 118     284     456   18790    1027 1083150
-
-##--> Qiime commands were run using ./Qiime_WIS/qiime2_tcga_analyses_31July23.ipynb
-## using the Qiime conda env version qiime2-2022.2
-##--> Can view outputted .qzv files on https://view.qiime2.org/ 
-
-#----------------------------------------------------------#
-# Plot alpha diversities for the HMS PT and BDN subsets
-#----------------------------------------------------------#
-# Instructions: 
-# - Upload the following 2 files to https://view.qiime2.org/
-# (1) ./Qiime_WIS/core_metrics_pt_hms/shannon_vector_significance.qzv
-# (2) ./Qiime_WIS/core_metrics_bdn_hms/shannon_vector_significance.qzv
-# - Then click "Download raw data as TSV" (just below and left of the plot)
-# - Save in the respective folder (eg ./Qiime_WIS/core_metrics_pt_hms/) as a CSV file
-
-
-##------------PT------------##
-# HMS
-alphaDivShannon_HMS_PT <- read.csv("Qiime_WIS/core_metrics_pt_hms/shannon_vector_significance_raw_values.csv",
-                                   stringsAsFactors = FALSE, comment.char = "#")
-alphaDivShannon_HMS_PT$investigation <- gsub("^TCGA\\-","",alphaDivShannon_HMS_PT$investigation)
-
-# Plot
-alphaDivShannon_HMS_PT %>%
-  ggplot(aes(reorder(investigation, shannon_entropy, FUN=median), shannon_entropy, fill=investigation)) +
-  geom_boxplot() + xlab("Primary tumors (HMS)") + ylab("Shannon Entropy") + 
-  geom_quasirandom(method = "smiley", size=0.8) +
-  theme_pubr(legend = "none") +
-  rotate_x_text(0) +
-  scale_fill_nejm() +
-  stat_compare_means(label.x.npc = 0.1, label.y.npc = 1) + 
-  stat_n_text()
-ggsave(filename = "Figures/alphaDivShannonPlotWIS_HMS_PT.jpeg",
-       dpi = "retina", units = "in", height = 4, width = 2.5)
-
-##------------BDN------------##
-# HMS
-alphaDivShannon_HMS_BDN <- read.csv("Qiime_WIS/core_metrics_bdn_hms/shannon_vector_significance_raw_values.csv",
-                                   stringsAsFactors = FALSE, comment.char = "#")
-alphaDivShannon_HMS_BDN$investigation <- gsub("^TCGA\\-","",alphaDivShannon_HMS_BDN$investigation)
-
-# Plot
-alphaDivShannon_HMS_BDN %>%
-  ggplot(aes(reorder(investigation, shannon_entropy, FUN=median), shannon_entropy, fill=investigation)) +
-  geom_boxplot() + xlab("Blood samples (HMS)") + ylab("Shannon Entropy") + 
-  geom_quasirandom(method = "smiley", size=0.8) +
-  theme_pubr(legend = "none") +
-  rotate_x_text(0) +
-  scale_fill_manual(values = c("#0072B5FF","#E18727FF")) +
-  stat_compare_means(label.x.npc = 0, label.y.npc = 1) + 
-  stat_n_text()
-ggsave(filename = "Figures/alphaDivShannonPlotWIS_HMS_BDN.jpeg",
-       dpi = "retina", units = "in", height = 4, width = 2.5)
-
-#----------------------------------------------------------#
 # PT multi-class machine learning
 #
 # NOTE: Since HMS is the only seq-center subset that had 3 cancer types,
@@ -406,7 +292,7 @@ mlMulticlass <- function(metaData = metadataSamplesMergedWIS_PT_HMS,
   
   ## Save predictions and perf
   # Preds
-  baseFilename <- paste0("multiclassCV_",st,"_",sc,"_k",numKFold,"_modelType_",modelType)
+  baseFilename <- paste0("multiclassCV_WIS_",st,"_",sc,"_k",numKFold,"_modelType_",modelType)
   write.csv(resPredAll, file = paste0("ML_results/pred",baseFilename,".csv"))
   save(resPredAll, file = paste0("ML_results/pred",baseFilename,".RData"))
   # Overall perf
@@ -431,15 +317,15 @@ hmsMulticlassMLRes_PT <- mlMulticlass()
 # Examine overall performance:
 hmsMulticlassMLRes_PT$perfCombinedAll
 # logLoss                    AUC                  prAUC 
-# 0.4998314              0.9907398              0.9499644 
+# 0.4944489              0.9919219              0.9560662 
 # Accuracy                  Kappa                Mean_F1 
-# 0.9225806              0.8646682              0.9087649 
+# 0.9290323              0.8771437              0.9217252 
 # Mean_Sensitivity       Mean_Specificity    Mean_Pos_Pred_Value 
-# 0.8906089              0.9553114              0.9365079 
+# 0.9107671              0.9616300              0.9400454 
 # Mean_Neg_Pred_Value         Mean_Precision            Mean_Recall 
-# 0.9569010              0.9365079              0.8906089 
+# 0.9589059              0.9400454              0.9107671 
 # Mean_Detection_Rate Mean_Balanced_Accuracy 
-# 0.3075269              0.9229601 
+# 0.3096774              0.9361986 
 
 # Examine per-CV performance:
 hmsMulticlassMLRes_PT$repPerfCombinedAll
@@ -500,7 +386,7 @@ hmsMulticlassMLRes_BDN <- mlMulticlass(metaData = metadataSamplesMergedWIS_BDN_H
 # Examine overall performance:
 hmsMulticlassMLRes_BDN$perfCombinedAll
 # logLoss               AUC             prAUC          Accuracy 
-# 0.3289573         0.9750693         0.9329673         0.9473684 
+# 0.3366396         0.9799169         0.9111785         0.9473684 
 # Kappa                F1       Sensitivity       Specificity 
 # 0.8251748         0.8571429         0.7894737         0.9868421 
 # Pos_Pred_Value    Neg_Pred_Value         Precision            Recall 
@@ -539,7 +425,7 @@ caret::confusionMatrix(hmsMulticlassMLRes_BDN$resPredAll$pred,
 #    Detection Prevalence : 0.1684          
 #       Balanced Accuracy : 0.8882          
 #                                           
-#        'Positive' Class : BRCA 
+#        'Positive' Class : BRCA
 
 
 
