@@ -302,14 +302,23 @@ mlMulticlass <- function(metaData = metadataSamplesMergedWIS_PT_HMS,
   write.csv(resPredAll, file = paste0("ML_results/repPerfCombinedAll",baseFilename,".csv"))
   save(resPredAll, file = paste0("ML_results/repPerfCombinedAll",baseFilename,".RData"))
   
-  rm(mlModel)
+  ## Variable importances
+  xgb_imp <- as.data.frame(xgb.importance(feature_names = mlModel$finalModel$feature_names,
+                                          model = mlModel$finalModel))
+  write.csv(xgb_imp, file = paste0("ML_results/featureImp",baseFilename,".csv"))
+  # Print top 5 features
+  print("Top feature importances:")
+  print(head(xgb_imp))
   
   res <- list(resPredAll=resPredAll,
+              mlModel=mlModel,
+              varImp=xgb_imp,
               perfCombinedAll=perfCombinedAll,
               repPerfCombinedAll=repPerfCombinedAll)
   return(res)
+  
+  rm(mlModel)
 }
-
 
 # Call multiclass function
 hmsMulticlassMLRes_PT <- mlMulticlass()
@@ -426,6 +435,8 @@ caret::confusionMatrix(hmsMulticlassMLRes_BDN$resPredAll$pred,
 #       Balanced Accuracy : 0.8882          
 #                                           
 #        'Positive' Class : BRCA
+
+
 
 
 
